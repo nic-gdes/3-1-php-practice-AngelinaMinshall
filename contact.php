@@ -1,13 +1,14 @@
 <?php
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = htmlspecialchars($_POST['name']);
     $email = htmlspecialchars($_POST['email']);
-    $messafe = htmlspecialchars($_POST['message']);
+    $message = htmlspecialchars($_POST['message']);
 }
  
 echo $name . "," . $email . ","  . $message;
-?> 
-
+?>
+       
 <!DOCTYPE html>
 <html lang="en">
 
