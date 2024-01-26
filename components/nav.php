@@ -1,7 +1,7 @@
 <header>
     <nav>
         <a href="index.php">
-            <img src="pufferfish.png" alt="Pufferfish">
+            <img src="./assets/pufferfish.png" alt="Pufferfish">
         </a>
         <a href="index.php">Home</a>
         <a href="contact.php">Contact</a>
